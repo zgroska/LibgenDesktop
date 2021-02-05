@@ -1,0 +1,932 @@
+﻿{
+    "General":
+    {
+        "Name": "Magyar",
+        "LocalizedName": "Magyar",
+        "CultureCode": "hu-HU",
+        "TranslatorName": "zgroska"
+    },
+    "Formatting":
+    {
+        "DecimalSeparator": ",",
+        "ThousandsSeparator": " ",
+        "DateFormat": "yyyy/MM/dd",
+        "TimeFormat": "hh:mm:ss tt",
+        "FileSizePostfixes":
+        {
+            "Byte": "bytes",
+            "Kilobyte": "KB",
+            "Megabyte": "MB",
+            "Gigabyte": "GB",
+            "Terabyte": "TB"
+        }
+    },
+    "MainWindow":
+    {
+        "WindowTitle": "Libgen Desktop",
+        "MainMenu":
+        {
+            "DownloadManagerTooltip": "Letöltéskezelő",
+            "BookmarksTooltip": "Könyvjelzők",
+            "NoBookmarks": "Nincs könyvjelző",
+            "Update": "Frissit…",
+            "Import": "Import…",
+            "Synchronize": "Szinkronizálás…",
+            "Library": "Könyvtár",
+            "Database": "Adatbázis…",
+            "SqlDebugger": "SQL hibakereső",
+            "Settings": "Beállítások",
+            "About": "About"
+        }
+    },
+    "SetupWizardWindow":
+    {
+        "WindowTitle": "Libgen Desktop",
+        "LanguageStep":
+        {
+            "ChooseLanguage": "Válasszon nyelvet:"
+        },
+        "SetupModeStep":
+        {
+            "WelcomeAndChooseOption": "Üdvözli a Libgen Desktop. Válassz egy lehetőséget:",
+            "FirstTimeUser": "Először futtatom a Libgen Desktop programot",
+            "ExperiencedUser": "Tapasztalt Libgen Desktop felhasználó vagyok"
+        },
+        "DatabaseOperationStep":
+        {
+            "ChooseAction": "Válasszon egy műveletet:",
+            "CreateNewDatabase": "Új adatbázis létrehozása",
+            "OpenExistingDatabase": "Meglévő adatbázis megnyitása"
+        },
+        "DownloadModeStep":
+        {
+            "ChooseDownloadMode": "Válassza ki az adatbázisok letöltésének módját:",
+            "DownloadManagerMode": "Hagyja, hogy a Libgen Desktop töltse le őket",
+            "UseProxyServer": "Használjon proxy szervert",
+            "ProxySettings": "BEÁLLÍTÁSOK…",
+            "BrowserMode": "Magam szeretném letölteni őket"
+        },
+        "StepListStep":
+        {
+            "StepListHeader": "A Libgen Desktop első beállítása",
+            "Step": "Lépés {step}",
+            "DownloadingDumps": "Az adatbázisok letöltése",
+            "CreatingDatabase": "Libgen Desktop adatbázis létrehozása",
+            "ImportingDumps": "Adatbázis-importálás a Libgen Desktop adatbázisba",
+            "ClickNextButton": "Kattints a Tovább gombra a beállítás elindításához."
+        },
+        "ProxySettingsWindow":
+        {
+            "WindowTitle": "Proxy szerver beállításai",
+            "ProxyAddress": "Cím",
+            "ProxyAddressRequired": "Kötelező mező",
+            "ProxyPort": "Port",
+            "ProxyPortValidation": "Számok {min} és {max} között",
+            "ProxyUserName": "Felhasználónév",
+            "ProxyPassword": "Jelszó",
+            "ProxyPasswordWarning": "A jelszó itt történő tárolása nem biztonságos.",
+            "Ok": "OK",
+            "Cancel": "MEGSZAKIT"
+        },
+        "DownloadDumpInfoStep":
+        {
+            "DownloadingDumpInfo": "Kérlek várj. Adatbázis információk letöltése …",
+            "CannotDownloadDumpInfo": "Nem sikerült letölteni az adatbázis információkat.",
+            "Interrupt": "MEGSZAKÍT",
+            "Interrupting": "MEGSZAKÍTÁS…",
+            "Retry": "PRÓBÁLD ÚJRA"
+        },
+        "CollectionsStep":
+        {
+            "ChooseCollections": "Válassza ki a Libgen Desktopban használni kívánt gyűjteményeket:",
+            "NonFiction": "Szakirodalmi könyvek",
+            "Fiction": "Szépirodalmi könyvek",
+            "SciMagArticles": "Tudományos cikkek",
+            "DownloadSizeExact": "Letöltés mérete: {size}",
+            "DownloadSizeApproximate": "Letöltés mérete: körülbelül  {size}",
+            "DatabaseSize": "Adatbázis mérete: körülbelül  {size}",
+            "ImportTimeInMinutes": "Importálás ideje: {from}–{to} percig",
+            "ImportTimeInHours": "Importálás ideje: {from}–{to} óra",
+            "DownloadInto": "Letöltés ide:",
+            "BrowseDirectoryDialogTitle": "Adatbázis letöltése…",
+            "ErrorWarningTitle": "Hiba",
+            "NoCollectionsSelected": "Legalább egy gyűjteményt ki kell választani.",
+            "DirectoryNotFound": "A(z) {könyvtár} könyvtár nem létezik. Válasszon egy másik könyvtárat."
+        },
+        "DownloadDumpsStep":
+        {
+            "NonFictionDumpName": "Szakirodalmi könyvek adatbázis-kiírása",
+            "FictionDumpName": "Szépirodalmi könyvek adatbázis-kiírása",
+            "SciMagArticlesDumpName": "Tudományos cikkek adatbázisa-kiírása",
+            "QueuedStatus": "Sorban áll",
+            "DownloadingStatus": "Letöltés",
+            "StoppedStatus": "Megállt",
+            "ErrorStatus": "Hiba",
+            "DownloadProgress": "Downloaded {downloaded} of {total} bytes ({percent}%)",
+            "Interrupt": "MEGSZAKÍT",
+            "Interrupting": "MEGSZAKÍTÁS…",
+            "Retry": "PRÓBÁLJA ÚJRA"
+        },
+        "DownloadDumpLinksStep":
+        {
+            "OpenPage": "Nyissa meg az adatbázis dump listáját a böngészőben:",
+            "CopyLink": "Link másolása",
+            "DownloadFiles": "Ezután töltse le a következő fájlokat:",
+            "NonFictionDumpName": "Szakirodalmi könyvek adatbázisa",
+            "FictionDumpName": "Szépirodalmi könyvek adatbázisa",
+            "SciMagArticlesDumpName": "Tudományos cikkek adatbázisa",
+            "FileName": "Fájl neve: {file}",
+            "YYYY": "YYYY",
+            "MM": "MM",
+            "DD": "DD",
+            "MostRecentDateNote": "ahol a {dateTemplate} a listában elérhető legfrissebb dátum."
+        },
+        "CreateDatabaseStep":
+        {
+            "DatabaseFilePathPrompt": "Kérjük, válassza ki az új adatbázisfájl tárolási útvonalát:",
+            "DatabaseCreated": "A Libgen Desktop adatbázis sikeresen létrehozva.",
+            "CannotCreateDatabase": "Nem sikerült” nem hozott létre Libgen Desktop adatbázist.",
+            "DiskSpaceRequirementsNote": "Körülbelül {size} szabad lemezterületre lesz szüksége.",
+            "SelectDatabaseFilePathDialogTitle": "Új Libgen Desktop adatbázis helye",
+            "Databases": "Adatbázisok",
+            "AllFiles": "Minden fájl",
+            "CreateDatabase": "ADATBÁZIST LÉTREHOZ",
+            "CreatingDatabase": "ADATBÁZIS LÉTREHOZÁSA…",
+            "DatabaseFileOverwritePromptTitle": "Felülírja az adatbázisfájlt?",
+            "DatabaseFileOverwritePromptText": "A fájl {fájl} már létezik. Felül akarja írni?"
+        },
+        "ImportDumpsStep":
+        {
+            "NonFictionDumpName": "Szakirodalmi könyvek adatbázisa",
+            "FictionDumpName": "Szépirodalmi könyvek adatbázisa",
+            "SciMagArticlesDumpName": "Tudományos cikkek adatbázisa",
+            "Status": "Állapot: {status}",
+            "NotImported": "még nem importált",
+            "Importing": "importálás…",
+            "ImportSuccessful": "sikeres importálás",
+            "ImportCancelled": "import megszakitva",
+            "ImportError": "import hiba",
+            "ImportButton": "IMPORT…",
+            "ImportingButton": "IMPORTÁLÁS…",
+            "DeleteDumps": "Ideiglenesen kiírt adatbázis fájlok törlése sikeres importálás után"
+        },
+        "ConfirmationStep":
+        {
+            "StepHeader": "A beállítás befejeződött",
+            "SettingsHeader": "Néhány beállítás, amelyet figyelembe kell vennie a telepítés befejezése előtt:",
+            "AllowInternetConnection": "A Libgen Desktop internetkapcsolatának engedélyezése",
+            "UseDownloadManager": "Könyvek és cikkek letöltéséhez használja a beépített letöltéskezelőt",
+            "UseBrowser": "Letöltési URL-ek megnyitása egy böngészőben",
+            "YouCanChangeSettings": "Ezeket a beállításokat bármikor módosíthatja."
+        },
+        "StepHeaderTemplate": "Step {current} / {total}: {header} lépés",
+        "DownloadingDumpsStepHeader": "Adatbázis-fájlok letöltése",
+        "CreatingDatabaseStepHeader": "Libgen Desktop adatbázis létrehozása",
+        "ImportingDumpsStepHeader": "Adatbázis-fájlok importálása a Libgen Desktop adatbázisába",
+        "Back": "VISSZA",
+        "Next": "KÖVETKEZŐ",
+        "Finish": "VÉGE",
+        "Cancel": "MÉGSE",
+        "ExitSetupTitle": "Kilépés a beállításból",
+        "ExitSetupText": "A beállítás még nem fejeződött be. Biztos ki akarsz lépni?"
+    },
+    "SearchTab":
+    {
+        "TabTitle": "Keresés",
+        "SearchPlaceHolder": "Keresés",
+        "NonFictionSelector": "Szakirodalmi könyvek",
+        "FictionSelector": "Szépirodalmi könyvek",
+        "SciMagSelector": "Tudományos cikkek",
+        "NonFictionSearchBoxTooltip": "Keresés cím, szerzők, sorozat, kiadó és ISBN szerint kötőjelek nélkül",
+        "FictionSearchBoxTooltip": "Keresés cím, szerzők, sorozat, kiadó és ISBN alapján kötőjelekkel",
+        "SciMagSearchBoxTooltip": "Keresés cím, szerzők, folyóirat neve, DOI, Pubmed ID és ISSN (p/e) alapján",
+        "SearchInProgress": "Keresés folyamatban…",
+        "NonFictionSearchProgress": "Talált könyvek: {count}",
+        "FictionSearchProgress": "Talált könyvek: {count}",
+        "SciMagSearchProgress": "Articles found: {count}",
+        "Interrupt": "MEGSZAKIT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "DatabaseIsEmpty": "Az adatbázis üres. Tölts le egy adatbázist fájlt a Library Genesis webhelyről és importáld be ide.",
+        "ImportButton": "Import"
+    },
+    "SearchResultsTabs":
+    {
+        "SearchPlaceHolder": "Keresés",
+        "SearchInProgress": "Keresés folyamatban…",
+        "Interrupt": "MEGSZAKIT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "AddToBookmarksTooltip": "Hozzáadás a könyvjelzőkhöz",
+        "RemoveFromBookmarksTooltip": "Eltávolítás a könyvjelzőkből",
+        "ExportButtonTooltip": "Keresési eredmények exportálása fájlba",
+        "Details": "Részletek",
+        "Open": "Megnyitás",
+        "Download": "Letöltés",
+        "Copy": "Másolás",
+        "ErrorMessageTitle": "Hiba",
+        "FileNotFoundError": "A(z) {fájl} fájl nem található.",
+        "OfflineModeIsOnMessageTitle": "Az offline mód be van kapcsolva",
+        "OfflineModeIsOnMessageText": "A letöltés le van tiltva, amíg az offline mód be van kapcsolva. A beállítások ablakban kikapcsolhatja.",
+        "NoDownloadMirrorError": "Nincs kiválasztva letöltési tükör. Kérjük, válasszon egyet a tükrök közül a beállítási ablakban.",
+        "LargeNumberOfItemsToDownloadPromptTitle": "Nagyszámú Letölthető tétel",
+        "LargeNumberOfItemsToDownloadPromptText": "{number} tétel letöltésére készül. Biztos vagy ebben?"
+    },
+    "NonFictionSearchResultsTab":
+    {
+        "SearchBoxTooltip": "Keresés cím, szerzők, sorozat, kiadó és ISBN szerint kötőjelek nélkül",
+        "SearchProgress": "Talált könyvek: {count}",
+        "StatusBar": "Talált könyvek: {count}",
+        "Columns":
+        {
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Series": "Sorozatok",
+            "Year": "Év",
+            "Language": "Nyelv",
+            "Publisher": "Kiadó",
+            "Format": "Formátum",
+            "FileSize": "Fájlméret",
+            "Ocr": "OCR",
+            "InLocalLibrary": "Helyi könyvtárban"
+        }
+    },
+    "FictionSearchResultsTab":
+    {
+        "SearchBoxTooltip": "Keresés cím szerint , szerzők, sorozatok, kiadók és ISBN kötőjelekkel",
+        "SearchProgress": "Talált könyvek: {count}",
+        "StatusBar": "Talált könyvek: {count}",
+        "Columns":
+        {
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Series": "Sorozatok",
+            "Year": "Év",
+            "Language": "Nyelv",
+            "Publisher": "Kiadó",
+            "Format": "Formátum",
+            "FileSize": "Fájlméret",
+            "Ocr": "OCR",
+            "InLocalLibrary": "Helyi könyvtárban"
+        }
+    },
+    "SciMagSearchResultsTab":
+    {
+        "SearchBoxTooltip": "Keresés cím, szerzők, magazin neve, DOI, Pubmed ID és ISSN (p/e) alapján",
+        "SearchProgress": "Talált cikkek: {count}",
+        "StatusBar": "Talált cikkek: {count}",
+        "Columns":
+        {
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Magazine": "Magazin",
+            "Year": "Év",
+            "Language": "Nyelv",
+            "Doi": "DOI",
+            "InLocalLibrary": "Helyi könyvtárban"
+        }
+    },
+    "DetailsTabs":
+    {
+        "CoverIsLoading": "Borító betöltése…",
+        "NoCover": "Nincs borító",
+        "NoCoverMirror": "Nem választott ki egy tükröt {new-line} ennek a borítónak a betöltéséhez",
+        "NoCoverDueToOfflineMode": "Az offline mód be van kapcsolva. {New-line} A borító nincs betöltve..",
+        "CoverLoadingError": "Nem sikerült betölteni a borítót",
+        "Yes": "Igen",
+        "No": "Nem",
+        "Unknown": "ismeretlen",
+        "Portrait": "álló",
+        "Landscape": "fekvő",
+        "CopyContextMenu": "Másolás \"{text}\"",
+        "Download": "LETÖLTÉS",
+        "DownloadFromMirror": "LETÖLTÉS A {mirror} -RÓL",
+        "Queued": "SORBAN",
+        "Downloading": "LETÖLTÉS ",
+        "Stopped": "LEÁLLÍTVA",
+        "Error": "LETÖLTÉSI HIBA",
+        "Open": "FÁJL MEGNYITÁSA",
+        "ErrorMessageTitle": "Hiba",
+        "FileNotFoundError": "File {file} nem található.",
+        "NoDownloadMirrorTooltip": "Nincs kiválasztva tükör",
+        "OfflineModeIsOnTooltip": "Az offline mód be van kapcsolva",
+        "Close": "BEZÁR"
+    },
+    "NonFictionDetailsTab":
+    {
+		"Title": "Cím",
+        "Authors": "Szerzők",
+        "Series": "Sorozatok",
+        "Publisher": "Kiadó",
+        "Year": "Év",
+        "Language": "Nyelv",
+        "Format": "Formátum",
+        "Isbn": "ISBN",
+        "Added": "Hozzáadva",
+        "LastModified": "Utoljára módosítva",
+        "Library": "Könyvtár",
+        "FileSize": "Fájlméret",
+        "Topics": "Témák",
+        "Volume": "Kötet",
+        "Magazine": "Magazin",
+        "City": "Város",
+        "Edition": "Kiadás",
+        "Pages": "Oldalak",
+        "BodyMatterPages": "törzsanyag",
+        "TotalPages": "oldalszám",
+        "Tags": "Cimkék",
+        "Md5Hash": "MD5 hash",
+        "Comments": "Megjegyzések",
+        "Identifiers": "Azonosítók",
+        "LibgenId": "Libgen ID",
+        "Issn": "ISSN",
+        "Udc": "UDC",
+        "Lbc": "LBC",
+        "Lcc": "LCC",
+        "Ddc": "DDC",
+        "Doi": "DOI",
+        "OpenLibraryId": "Open Library ID",
+        "GoogleBookId": "Google Books ID",
+        "Asin": "ASIN",
+        "AdditionalAttributes": "További attribútumok",
+        "Dpi": "DPI",
+        "Ocr": "OCR",
+        "TableOfContents": "Tartalomjegyzék",
+        "Scanned": "Szkennelt",
+        "Orientation": "Tájolás",
+        "Paginated": "Oldalszám",
+        "Colored": "Színes",
+        "Cleaned": "Állapot"
+    },
+    "FictionDetailsTab":
+    {
+ 		"Title": "Cím",
+        "Authors": "Szerzők",
+        "Series": "Sorozatok",
+        "Publisher": "Kiadó",
+        "Edition": "Kiadás",
+        "Year": "Év",
+        "Language": "Nyelv",
+        "Format": "Formátum",
+        "Pages": "Oldalak",
+        "FileSize": "Fájlméret",
+        "Library": "Könyvtár",
+        "Issue": "Issue",
+        "Added": "Hozzáadva",
+        "LastModified": "Utoljára módosítva",
+        "Md5Hash": "MD5 hash",
+        "Comments": "Megjegyzések",
+        "Identifiers": "Azonosítók",
+        "LibgenId": "Libgen ID",
+        "Isbn": "ISBN",
+        "GoogleBookId": "Google Books ID",
+        "Asin": "ASIN"
+    },
+    "SciMagDetailsTab":
+    {
+        "Title": "Cím",
+        "Authors": "Szerzők",
+        "Magazine": "Magazin",
+        "Year": "Év",
+        "Month": "Hónap",
+        "Day": "Nap",
+        "Volume": "Kötet",
+        "Issue": "Issue",
+        "Pages": "Oldalak",
+        "FileSize": "Fájlméret",
+        "AddedDateTime": "Hozzáadva",
+        "Md5Hash": "MD5 hash",
+        "AbstractUrl": "Absztrakt URL",
+        "Identifiers": "Azonosítók",
+        "LibgenId": "Libgen ID",
+        "Doi": "DOI",
+        "Isbn": "ISBN",
+        "MagazineId": "Magazin ID",
+        "Issnp": "ISSN (p)",
+        "Issne": "ISSN (e)",
+        "PubmedId": "Pubmed ID",
+        "Pmc": "PMC",
+        "Pii": "PII",
+        "AdditionalAttributes": "További attribútumok",
+        "Attribute1": "Attribútum 1",
+        "Attribute2": "Attribútum 2",
+        "Attribute3": "Attribútum 3",
+        "Attribute4": "Attribútum 4",
+        "Attribute5": "Attribútum 5",
+        "Attribute6": "Attribútum 6"
+    },
+    "Import":
+    {
+        "WindowTitle": "Importálás SQL fájlból",
+        "BrowseImportFileDialogTitle": "SQL fájl helye",
+        "AllSupportedFiles": "Minden támogatott fájl",
+        "SqlDumps": "SQL fájl",
+        "Archives": "Archívumok",
+        "AllFiles": "Minden fájl",
+        "Elapsed": "Eltelt idő: {elapsed}",
+        "FreeSpace": "Az eszközön maradt szabad hely: {freeSpace}",
+        "Unknown": "ismeretlen",
+        "Interrupt": "MEGSZAKÍT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "Close": "BEZÁR",
+        "StatusMessages":
+        {
+            "Step": "A(z) {current} {total} lépés.",
+            "DataLookup": "A táblázat meghatározás keresése",
+            "CreatingIndexes": "Index létrehozása",
+            "LoadingIds": "Azonosítók betöltése",
+            "ImportingData": "Adatok importálása",
+            "ImportComplete": "Importálás befejezve",
+            "ImportCancelled": "Az importálás megszakítva",
+            "DataNotFound": "Adatok nem találhatók",
+            "ImportError": "Sikertelen importálás"
+        },
+        "LogMessages":
+        {
+            "Step": "Lépés {step}",
+            "DataLookup": "A táblázat meghatározásainak keresése",
+            "Scanning": "Szkennelés…",
+            "ScannedProgress": "A fájl {percent}% beolvasásra került…",
+            "NonFictionTableFound": "Szakirodalmi könyv-táblázatot találtunk.",
+            "FictionTableFound": "Szépirodalmi könyv-táblázat találtunk.",
+            "SciMagTableFound": "Tudományos cikk táblázatot találtunk.",
+            "CreatingIndexes": "Hiányzó indexek létrehozása",
+            "CreatingIndexForColumn": "Index létrehozása az {column} oszlophoz…",
+            "LoadingIds": "Meglévő adatazonosítók betöltése",
+            "LoadingColumnValues": "Az {column} oszlop adatainak betöltése…",
+            "ImportingData": "Adatok importálása",
+            "ImportBooksProgressNoUpdate": "Könyvek hozzáadva: {added}.",
+            "ImportBooksProgressWithUpdate": "Könyvek hozzáadva: {added}, frissítve: {updated}.",
+            "ImportArticlesProgressNoUpdate": "Cikkek hozzáadva: {added}.",
+            "ImportArticlesProgressWithUpdate": "Cikkek hozzáadva: {added}, frissítve: {updated}.",
+            "ImportSuccessful": "Az importálás sikeresen befejezve.",
+            "ImportCancelled": "Az importálást megszakitotta a felhasználó.",
+            "DataNotFound": "Nem található az importálandó adat.",
+            "InsufficientDiskSpace": "Nincs elég a lemezterület.",
+            "WrongTableFound": "Várhatóan megtalálta a {expected}, de keresi a(z) {found}-t.",
+            "ExpectedNonFictionTable": "nem szakirodalmi könyv táblázat",
+            "ExpectedFictionTable": "nem szépirodalmi könyv táblázat",
+            "ExpectedSciMagTable": "nem tudományos cikk táblázat",
+            "FoundNonFictionTable": "szakirodalmi könyv táblázat",
+            "FoundFictionTable": "szépirodalmi könyv táblázat",
+            "FoundSciMagTable": "tudományos cikk táblázat",
+            "ImportError": "Hiba történt az importálás során."
+        }
+    },
+    "ExportPanel":
+    {
+        "Header": "A keresési eredmények exportálása fájlba",
+        "Format": "Fájlformátum",
+        "Excel": "Microsoft Excel 2007-2016 (XLSX)",
+        "Csv": "Vesszővel elválasztott értékek (CSV)",
+        "Separator": "Szétválasztó",
+        "Comma": "Vessző",
+        "Semicolon": "Pontosvessző",
+        "Tab": "Tabulátor karakter",
+        "SaveAs": "Mentés másként",
+        "Browse": "Tallózás…",
+        "BrowseDialogTitle": "Keresési eredmények exportálása",
+        "ExcelFiles": "Microsoft Excel fájlok",
+        "CsvFiles": "CSV fájlok",
+        "TsvFiles": "TSV fájlok",
+        "AllFiles": "Összes fájl",
+        "ExportRange": "Exportálás tartomány",
+        "NoLimit": "összes",
+        "Limit": "csak az első {count} eredmény",
+        "Export": "EXPORT",
+        "Cancel": "MÉGSEM",
+        "SavingFile": "A fájl mentése",
+        "RowCountSingleFile": "Exportált sorok: {rows}.",
+        "RowCountMultipleFiles": "Exportált sorok: {rows}, létrehozott fájlok: {files}.",
+        "ErrorWarningTitle": "Hiba",
+        "InvalidExportPath": "Érvénytelen az exportált fájl elérési útja.",
+        "DirectoryNotFound": "A könyvtár {directory} nem létezik.",
+        "InvalidExportFileName": "Érvénytelen export fájlnév.",
+        "OverwritePromptTitle": "Felülírja a fájlt?",
+        "OverwritePromptText": "A(z) {file} fájl már létezik. Felül kívánja írni?",
+        "RowLimitWarningTitle": "Sorkorlát",
+        "RowLimitWarningText": "Elérte a Microsoft Excel maximális sorszámát. Az exportálás nem folytatható. További sorok exportálásához engedélyezze az alkalmazás beállításaiban a \"Több fájlra osztás\" opciót.",
+        "ExportError": "Hiba történt az exportálás során.",
+        "Interrupt": "MEGSZAKÍT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "ExportInterrupted": "Az exportálás megszakadt.",
+        "Results": "NYITOTT EREDMÉNYEK",
+        "Close": "BEZÁR"
+    },
+    "Exporter":
+    {
+        "Yes": "igen",
+        "No": "nem",
+        "Unknown": "ismeretlen",
+        "Portrait": "álló",
+        "Landscape": "fekvő",
+        "NonFictionColumns":
+        {
+            "Id": "ID",
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Series": "Sorozatok",
+            "Publisher": "Kiadó",
+            "Year": "Áv",
+            "Language": "Nyelv",
+            "Format": "Formátum",
+            "Isbn": "ISBN",
+            "Added": "Hozzáadva",
+            "LastModified": "Utoljára módosítva",
+            "Library": "Könyvtár",
+            "FileSize": "Fájlméret",
+            "Topics": "Témák",
+            "Volume": "Kötet",
+            "Magazine": "Magazin",
+            "City": "Város",
+            "Edition": "Kiadás",
+            "BodyMatterPages": "Oldaszám (Törzsszöveg)",
+            "TotalPages": "Oldalak (Total)",
+            "Tags": "Cimkék",
+            "Md5Hash": "MD5 hash",
+            "Comments": "Megjegyzések",
+            "LibgenId": "Libgen ID",
+            "Issn": "ISSN",
+            "Udc": "UDC",
+            "Lbc": "LBC",
+            "Lcc": "LCC",
+            "Ddc": "DDC",
+            "Doi": "DOI",
+            "OpenLibraryId": "Open Library ID",
+            "GoogleBookId": "Google Books ID",
+            "Asin": "ASIN",
+            "Dpi": "DPI",
+            "Ocr": "OCR",
+            "TableOfContents": "Tartalomjegyzék",
+            "Scanned": "Szkennelt",
+            "Orientation": "Tájolás",
+            "Paginated": "Lapozás",
+            "Colored": "Szines",
+            "Cleaned": "Állapot"
+        },
+        "FictionColumns":
+        {
+            "Id": "ID",
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Series": "Sorozatok",
+            "Publisher": "Kiadó",
+            "Edition": "Kiadás",
+            "Year": "Év",
+            "Language": "Nyelv",
+            "Format": "Formátum",
+            "Pages": "Oldalak",
+            "FileSize": "Fájlméret",
+            "Library": "Könyvtár",
+            "Issue": "Issue",
+            "Added": "Hozzáadva",
+            "LastModified": "Utoljára módosítva",
+            "Md5Hash": "MD5 hash",
+            "Comments": "Megjegyzések",
+            "LibgenId": "Libgen ID",
+            "Isbn": "ISBN",
+            "GoogleBookId": "Google Books ID",
+            "Asin": "ASIN"
+        },
+        "SciMagColumns":
+        {
+            "Id": "ID",
+            "Title": "Cím",
+            "Authors": "Szerzők",
+            "Magazine": "Magazin",
+            "Year": "Év",
+            "Month": "Hónap",
+            "Day": "Nap",
+            "Volume": "Kötet",
+            "Issue": "Issue",
+            "Pages": "Oldalak",
+            "FileSize": "Fájlméret",
+            "AddedDateTime": "Hozzáadva",
+            "Md5Hash": "MD5 hash",
+            "AbstractUrl": "Abstract URL",
+            "LibgenId": "Libgen ID",
+            "Doi1": "DOI 1",
+            "Doi2": "DOI 2",
+            "Isbn": "ISBN",
+            "MagazineId": "Magazin ID",
+            "Issnp": "ISSN (p)",
+            "Issne": "ISSN (e)",
+            "PubmedId": "Pubmed ID",
+            "Pmc": "PMC",
+            "Pii": "PII",
+            "Attribute1": "Attribútum 1",
+            "Attribute2": "Attribútum 2",
+            "Attribute3": "Attribútum 3",
+            "Attribute4": "Attribútum 4",
+            "Attribute5": "Attribútum 5",
+            "Attribute6": "Attribútum 6"
+        }
+    },
+    "Synchronization":
+    {
+        "WindowTitle": "Szakirodalmi könyvlista szinkronizálása",
+        "ErrorMessageTitle": "Hiba",
+        "ImportRequired": "Szakirodalmi adatbázis fájl importálását be kell fejezni a szinkronizálás megkezdéséhez.",
+        "NoSynchronizationMirror": "Nincs szakirodalmi könyv szinkronizációs tükör kiválasztva.",
+        "OfflineModePromptTitle": "Offline mód",
+        "OfflineModePromptText": "A szinkronizálás nem indítható be, ha az offline mód be van kapcsolva. Szeretné kikapcsolni?",
+        "Elapsed": "Eltelt idő: {elapsed}",
+        "FreeSpace": "Az eszközön maradt szabad hely: {freeSpace}",
+        "Unknown": "ismeretlen",
+        "Interrupt": "MEGSZAKIT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "Close": "BEZÁR",
+        "StatusMessages":
+        {
+            "Step": "A(z) {current} lépés {total}-ból.",
+            "Preparation": "Felkészülés a szinkronizálásra",
+            "CreatingIndexes": "Indexek létrehozása",
+            "LoadingIds": "Azonosítók betöltése",
+            "SynchronizingData": "Az adatok szinkronizálása",
+            "SynchronizationComplete": "A szinkronizálás befejeződött",
+            "SynchronizationCancelled": "A szinkronizálást megszakítottuk",
+            "SynchronizationError": "A szinkronizálás sikertelen"
+        },
+        "LogMessages":
+        {
+            "Step": "Lépés {step}",
+            "CreatingIndexes": "Hiányzó indexek létrehozása",
+            "CreatingIndexForColumn": "Index létrehozása az {column} oszlophoz…",
+            "LoadingIds": "Meglévő adatazonosítók betöltése",
+            "LoadingColumnValues": "Az {column} oszlop adatainak betöltése…",
+            "SynchronizingBookList": "A könyvlista szinkronizálása",
+            "DownloadingNewBooks": "Új könyv-metaadatok letöltése",
+            "SynchronizationProgressNoAddedNoUpdated": "Letöltött könyvek: {downloaded}.",
+            "SynchronizationProgressAdded": "Letöltött könyvek: {downloaded}, hozzáadva: {added}.",
+            "SynchronizationProgressUpdated": "Letöltött könyvek: {downloaded}, frissítve: {updated}.",
+            "SynchronizationProgressAddedAndUpdated": "Letöltött könyvek: {downloaded}, hozzáadva: {added}, frissítve: {updated}.",
+            "SynchronizationSuccessful": "A szinkronizálás sikeresen befejeződött.",
+            "SynchronizationCancelled": "A szinkronizálást a felhasználó megszakitotta.",
+            "InsufficientDiskSpace": "Nincs elegendő lemezterület.",
+            "SynchronizationError": "Hiba történt a szinkronizálás során: {error}"
+        }
+    },
+    "Library":
+    {
+        "TabTitle": "Könyvtár",
+        "ScanNonFiction": "SZAKIRODALMI KÖNYVEK BEOLVASÁSA…",
+        "ScanFiction": "SZÉPIRODALMI KÖNYVEK BEOLVASÁSA…",
+        "ScanSciMag": "TUDOMÁNYOS CIKKEK BEOLVASÁSA…",
+        "BrowseDirectoryDialogTitle": "Beolvasás…",
+        "ScanStarted": "Beolvasás elindult a(z) {directory}-ba",
+        "CreatingIndexes": "Kérjük, várjon. Hiányzó adatbázis-indexek létrehozása… ",
+        "Found": "Talált ({count})",
+        "AddAll": "MINDEN TALÁLT FÁJL HOZZÁADÁSA A KÖNYVTÁRHOZ",
+        "Adding": "FÁJLOK HOZZÁADÁSA A KÖNYVTÁRHOZ…",
+        "Added": "MINDEN FÁJLT HOZZÁADOTT A KÖNYVTÁRHOZ",
+        "NotFound": "Nem található ({count})",
+        "ScanLog": "Beolvasási napló",
+        "Error": "Hiba",
+        "ScanComplete": "Beolvasás befejeződött. Talált: {found}, nem talált: {notFound}, hibák: {errors}.",
+        "Columns":
+        {
+            "File": "Fájl",
+            "Authors": "Szerzők",
+            "Title": "Cím"
+        }
+    },
+    "Database":
+    {
+        "WindowTitle": "Adatbázis-információk",
+        "CurrentDatabase": "Aktuális adatbázis:",
+        "NonFiction": "Szakirodalmi könyvek",
+        "Fiction": "Szépirodalmi könyvek",
+        "SciMagArticles": "Tudományos cikkek",
+        "TotalBooks": "Összes könyv",
+        "TotalArticles": "Összes cikk",
+        "LastUpdate": "Utoljára módosítva",
+        "Never": "soha",
+        "IndexesRequiredTitle": "Adatbázis-indexek",
+        "IndexesRequiredText": "Libgen Desktopnak hiányzó adatbázis-indexeket kell létrehoznia. Ez a művelet hosszú időt vehet igénybe (legfeljebb egy órát), és nem szakítható meg. Szeretné folytatni?",
+        "CreatingIndexes": "Kérjük, várjon. Hiányzó adatbázis-indexek létrehozása… {new-line} Ezt a műveletet nem lehet megszakítani.",
+        "ChangeDatabase": "ADATBÁZIS MÓDOSÍTÁSA…",
+        "BrowseDatabaseDialogTitle": "Adatbázis fájl helye",
+        "Databases": "Adatbázisok",
+        "AllFiles": "Összes fájl",
+        "Error": "Hiba",
+        "DatabaseNotValid": "A(z) {file} fájl nem érvényes Libgen Desktop adatbázis.",
+        "DatabaseDumpFile": "Úgy tűnik, hogy a(z) {file} adatbázis fájl, nem egy Libgen Desktop adatbázis-fájl.",
+        "LibgenServerDatabase": "Az adatbázis {database} egy Libgen Server adatbázis, amely nem kompatibilis a Libgen Desktop adatbázis-struktúrájával.",
+        "OldFictionSchemaTitle": "Törli a szépirodalmi gyűjteményt?",
+        "OldFictionSchemaText": "Az adatbázis {adatbázis} elavult adatbázis-felépítéssel rendelkezik. 2020 februárjától a fő Libgen tükör új adatbázis-struktúrát használ fikciós gyűjteménye számára. Le kell töltenie és importálnia kell egy új fikciós adatbázis-fájlt, hogy folytathassa a gyűjtemény használatát a Libgen Desktop alkalmazásban. Szeretné most törölni a szépirodalmi gyűjteményt ebből az adatbázisból?",
+        "Close": "BEZÁR"
+    },
+    "DatabaseError":
+    {
+        "WindowTitle": "Libgen Desktop",
+        "DatabaseNotFound": "{database} adatbázis nem található.",
+        "DatabaseNotValid": "{file} fájl nem érvényes Libgen Desktop adatbázis.",
+        "DatabaseDumpFile": "Úgy tűnik, hogy a(z) {file} adatbázis-fájl nem egy Libgen Desktop adatbázis-fájl. Indítsa el a telepítővarázslót az importálásához.",
+        "LibgenServerDatabase": "A(z) {database} adatbázis egy Libgen Server adatbázis, amely nem kompatibilis a Libgen Desktop adatbázis-struktúrával.",
+        "OldFictionSchema": "A(z) {database} adatbázis elavult adatbázis-szerkezettel rendelkezik. . 2020 februárjától a fő Libgen tükör új adatbázis-struktúrát használ fikciós gyűjteménye számára. Le kell töltenie és importálnia kell egy új fikciós adatbázis-dumpot, hogy továbbra is használhassa a gyűjteményt a Libgen Desktop alkalmazásban. ",
+        "HeaderTemplate": "{error} Válasszon egy műveletet:",
+        "OpenAnotherDatabase": "Nyisson meg egy másik adatbázist",
+        "StartSetupWizard": "Indítsa el a beállítás-varázslót",
+        "DeleteFiction": "A jelenlegi szépirodalmi gyűjtemény törlése és folytatása",
+        "Exit": "Kilépés a Libgen Desktopból",
+        "Ok": "OK",
+        "Cancel": "MEGSZAKÍT"
+    },
+    "SqlDebugger":
+    {
+        "WindowTitle": "SQL hibakereső",
+        "SqlQueryTextBoxHeader": "Írja be az SQL lekérdezést",
+        "Copy": "MÁSOLÁS A VÁGÓLAPRA",
+        "Close": "BEZÁR"
+    },
+    "DownloadManager":
+    {
+        "TabTitle": "Letöltések",
+        "Start": "START",
+        "Stop": "STOP",
+        "Remove": "KIVESZ",
+        "StartAll": "START MIND",
+        "StopAll": "STOP MIND",
+        "RemoveCompleted": "KIVÉTEL KÉSZ",
+        "QueuedStatus": "Sorba",
+        "DownloadingStatus": "Letöltés",
+        "StoppedStatus": "Megállt",
+        "RetryDelayStatus": "Újrapróbálkozás késleltetése",
+        "ErrorStatus": "Hiba",
+        "DownloadProgressKnownFileSize": "Downloaded {downloaded} of {total} bytes ({percent}%)",
+        "DownloadProgressUnknownFileSize": "Downloaded {downloaded} bytes of unknown",
+        "Log": "Log",
+        "TechnicalDetails": "Műszaki részletek",
+        "Copy": "Másolás a vágólapra",
+        "FileNotFoundErrorTitle": "Hiba",
+        "FileNotFoundErrorText": "{file} fájl nem található.",
+        "LogMessages":
+        {
+            "Queued": "Hozzáadva a letöltési sorhoz.",
+            "Started": "Indult.",
+            "Stopped": "Leállt.",
+            "RetryDelay": "Késleltet {count} másodpercet…",
+            "Completed": "A letöltés befejeződött.",
+            "OfflineModeIsOn": "Az offline mód be van kapcsolva.",
+            "TransformationError": "Az átalakítás {transformation} sikertelen.",
+            "TransformationReturnedIncorrectUrl": "A transzformáció {transformation} érvénytelen URL-t adott vissza.",
+            "Attempt": "{Total} / {current} kísérlet.",
+            "MaximumDownloadAttempts": "Elérte a maximális letöltési kísérletek számát.",
+            "DownloadingPage": "Oldal letöltése: {url}",
+            "DownloadingFile": "Fájl letöltése: {url}",
+            "StartingFileDownloadKnownFileSize": "A fájlletöltés megkezdődött, a fájl mérete: {size} bájt.",
+            "StartingFileDownloadUnknownFileSize": "A fájl letöltése elindult, a fájl mérete: ismeretlen.",
+            "ResumingFileDownloadKnownFileSize": "A fájl letöltése folytatódik, fennmaradó méret: {hátralévő} bájt.",
+            "ResumingFileDownloadUnknownFileSize": "A fájlletöltés folytatódik, fennmaradó méret: ismeretlen.",
+            "Request": "Kérés",
+            "Response": "Szerver válasza",
+            "Redirect": "Átirányítás ide: {url}",
+            "TooManyRedirects": "Túl sok átirányítási választ kapott a szerver.",
+            "NonSuccessfulStatusCode": "A szerver válasza: {status}.",
+            "CannotCreateDownloadDirectory": "Nem sikerült létrehozni a(z) {directory} könyvtárat",
+            "CannotCreateOrOpenFile": "Nem sikerült létrehozni vagy megnyitni a(z) {file} fájlt",
+            "CannotRenamePartFile": "Nem sikerült átnevezni a(z) {source} fájlt erre: {destination}.",
+            "HtmlPageReturned": "A szerver HTML-oldalt adott vissza a fájl helyett.",
+            "NoPartialDownloadSupport": "A szerver nem támogatja a részleges letöltéseket.",
+            "NoContentLengthWarning": "Figyelem: A szerver nem adta meg a fájl méretét.",
+            "ServerResponseTimeout": "A kiszolgáló válaszának időkorlátja.",
+            "DownloadIncompleteError": "A szerver jelzi, hogy a fájlletöltés befejeződött, de mégsem.",
+            "FileWriteError": "Fájlírási hiba.",
+            "LogLineRequestError": "Nem sikerült elküldeni a kérést a következő címre: {url}",
+            "IncorrectRedirectUrl": "A szerver helytelen átirányítási URL-t adott vissza: {url}",
+            "UnexpectedError": "Váratlan hiba történt: {error}"
+        }
+    },
+    "ApplicationUpdate":
+    {
+        "WindowTitle": "Alkalmazásfrissítés",
+        "UpdateAvailable": "A Libgen Desktop új verziója elérhető",
+        "NewVersion": "Új verzió: {version} megjelent: {date}",
+        "Download": "LETÖLTÉS",
+        "DownloadAndInstall": "LETÖLTÉS ÉS TELEPÍTÉS",
+        "SkipThisVersion": "VERZIÓ KIHAGYÁSA",
+        "Cancel": "MÉGSEM",
+        "Interrupt": "MEGSZAKIT",
+        "Interrupting": "MEGSZAKITÁS…",
+        "InterruptPromptTitle": "Megszakítja a letöltést?",
+        "InterruptPromptText": "Megszakítja a frissítés letöltését?",
+        "Error": "Hiba",
+        "IncompleteDownload": "A frissítés letöltése nem fejeződött be.",
+        "Close": "BEZÁR"
+    },
+    "Settings":
+    {
+        "WindowTitle": "Beállítások",
+        "Ok": "OK",
+        "Cancel": "MÉGSEM",
+        "DiscardChangesPromptTitle": "Módosítások elvetése?",
+        "DiscardChangesPromptText": "A beállítások megváltoztak. Biztosan elveti a módosításokat?",
+        "General":
+        {
+            "TabHeader": "Általános",
+            "Language": "Nyelv",
+            "PercentTranslated": "{percent}% fordította",
+            "CheckUpdates": "A frissítések ellenőrizésének gyakorisága",
+            "UpdateCheckIntervals":
+            {
+                "Never": "soha",
+                "Daily": "napi",
+                "Weekly": "heti",
+                "Monthly": "havi"
+            }
+        },
+        "Network":
+        {
+            "TabHeader": "Hálózat",
+            "OfflineMode": "Offline mód",
+            "UseHttpProxy": "Használjon HTTP proxyt",
+            "ProxyAddress": "Cím",
+            "ProxyAddressRequired": "Kötelező mező",
+            "ProxyPort": "Port",
+            "ProxyPortValidation": "Számok {min} és {max} között",
+            "ProxyUserName": "Felhasználónév",
+            "ProxyPassword": "Jelszó",
+            "ProxyPasswordWarning": "A jelszó tárolása itt nem biztonságos."
+        },
+        "Download":
+        {
+            "TabHeader": "Letöltések",
+            "DownloadMode": "Letöltési mód",
+            "OpenInBrowser": "a böngészőben nyissa meg a letöltendő URL-t ",
+            "UseDownloadManager": "használja a belső letöltéskezelőt",
+            "DownloadDirectory": "Töltse le",
+            "BrowseDirectoryDialogTitle": "Könyvtár letöltése",
+            "DownloadDirectoryNotFound": "Könyvtár nem létezik",
+            "Timeout": "Letöltés időtúllépése",
+            "TimeoutValidation": "Számok: {min} — {max}",
+            "Seconds": "másodpercig",
+            "DownloadAttempts": "Letöltési kísérletek",
+            "DownloadAttemptsValidation": "Számok: {min} — {max}",
+            "Times": "alkalommal",
+            "RetryDelay": "Letöltési kísérlet késleltetése",
+            "RetryDelayValidation": "Számok: {min} — {max}"
+        },
+        "Mirrors":
+        {
+            "TabHeader": "Tükrök",
+            "NonFiction": "Szakirodalmi könyvek",
+            "Fiction": "Szépirodalmi könyvek",
+            "SciMagArticles": "Tudományos cikkek",
+            "Books": "Könyvek",
+            "Articles": "Cikkek",
+            "Covers": "Borítók",
+            "Synchronization": "Szinkronizálás",
+            "NoMirror": "nincs tükör"
+        },
+        "Search":
+        {
+            "TabHeader": "Keresés",
+            "LimitResults": "Keresési eredmények korlátozása",
+            "MaximumResults": "Maximális eredményszám",
+            "PositiveNumbersOnly": "Csak pozitív számok",
+            "OpenDetails": "Nyissa meg a könyv / cikk részleteit:",
+            "InModalWindow": "felugró ablakban",
+            "InNonModalWindow": "egy nem felugró ablakban",
+            "InNewTab": "egy új lapon"
+        },
+        "Export":
+        {
+            "TabHeader": "Export",
+            "OpenResults": "Nyitott eredmények az exportálás után",
+            "SplitIntoMultipleFiles": "Több fájlra osztva",
+            "MaximumRowsPerFile": "Fájlonként maximális sor",
+            "MaximumRowsPerFileValidation": "Számok {min} és {max} között",
+            "ExcelLimitNote": "Megjegyzés: A Microsoft Excel nem támogatja a {count} sornál több fájlt."
+        },
+        "Advanced":
+        {
+            "TabHeader": "Haladó",
+            "UseLogging": "Írjon diagnosztikai információkat egy fájlba",
+            "EnableSqlDebugger": "Engedélyezze az SQL hibakeresőt"
+        }
+    },
+    "About":
+    {
+        "WindowTitle": "A Libgen Desktopról",
+        "ApplicationName": "Libgen Desktop",
+        "Version": "Jelenlegi verzió: {version} megjelent: {date}",
+        "CheckForUpdates": "FRISSÍTÉSEK KERESÉSE",
+        "CheckingUpdates": "A FRISSÍTÉSEK ELLENŐRZÉSE…",
+        "OfflineModeIsOnTooltip": "Az offline mód be van kapcsolva",
+        "LatestVersion": "Ön a legújabb verziót használja.",
+        "NewVersionAvailable": "Új verzió érhető el: {version} megjelent: {date}",
+        "Update": "FRISSÍTÉS",
+        "Translators": "Fordítók:"
+    },
+    "MessageBox":
+    {
+        "Ok": "OK",
+        "Yes": "IGEN",
+        "No": "NEM"
+    },
+    "ErrorWindow":
+    {
+        "WindowTitle": "Hiba",
+        "UnexpectedError": "Váratlan hiba történt",
+        "Copy": "MÁSOLJA A VÁGÓLAPRA",
+        "Close": "BEZÁR"
+    }
+}
